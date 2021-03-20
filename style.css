@@ -1,4 +1,26 @@
-*{
-margin:0;
-padding:0;
+.hidden{
+    display: none;
+    /* wont display anything within this display class */
+}
+
+body.dark{
+    background-color:rgb(32, 28, 28); 
+    color: white;
+}
+
+header {
+    text-align: center;
+    /* centres the text */
+    padding-bottom: 10px;
+    border-bottom: 1px solid red;
+}
+h1{
+    font-size: 45pt;
+}
+#setupgame{
+    display:flex ;
+    justify-content: center;
+}
+button{
+    justify-self: center;
 }

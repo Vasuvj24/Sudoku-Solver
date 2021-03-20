@@ -1,1 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudoku Solver</title>
+    <link rel="stylesheet" href="sudokusolver.css">
+    <script class="sudokusolver.js"></script>
+</head>
+<header>
+    <h1>Sudoku Solver</h1>
+    <div id="setupgame">
+        <div id="diff">
+            <h2>Choose Difficulty: </h2>
+            <label for="Difficulty">Easy:</label><input id="Difficulty" type="radio" name="diff"> <label for="Medium">Medium:</label><input id="Medium" type="radio" name="diff"> <label for="Hard">Hard:</label><input id="Hard" type="radio" name="diff">
+        </div>
+        <div id="time">
+            <h2>Choose Time: </h2>
+            <label for="timing">3 min</label><input id="timing" type="radio" name=timee> <label for="timing1">10 min</label><input id="timing1" type="radio" name=timee> <label for="timing2">15 min</label><input id="timing2"type="radio" name=timee>
+        </div>
+        <div id="theme">
+            <h2>Theme: </h2>
+            <label for="dark1">Dark: </label><input id="dark1" type="radio" name="theme"> <label for="light1">Light</label><input id="light1"type="radio" name="theme">
+        </div>
+    </div>
+        <br>
+        <button id="Solve">Solve..</button>
+        <button id="New">Create a New Game</button>
+</header>
+<body>
+    <div id="stats">
+        <p id="timer"></p>
+        <p id="lives"></p>
+    </div>
+    <div id="game">
+        <div id="board"></div>
+        <div id="number_container" class="hidden">
+            <p class="one">1</p>
+            <p class="two">2</p>
+            <p class="three">3</p>
+            <p class="four">4</p>
+            <p class="five">5</p>
+            <p class="six">6</p>
+            <p class="seven">7</p>
+            <p class="eight">8</p>
+            <p class="nine">9</p>
+        </div>
 
+    </div>
+
+</body>
+<footer>
+    Made by Vasu Vijayvargiya & Tushar Khandelwal
+</footer>
+
+</html>
